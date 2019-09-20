@@ -3,5 +3,7 @@
 
 userInput = int(input("Enter a negative number"))
 
-for index in range[7, userInput-1, -1]:
+for index in range(7, userInput-1, -1):
     print(index)
+
+    # type error tuple fixed

@@ -6,8 +6,8 @@ class Pet:
         self.type = type
         self.breed = breed
 
-    def printAllAttributes[self]:
-        print(F"The type is: {self.type}. The breed is: {self.breed}")
+    def printAllAttributes(self):
+        print(F'The type is: {self.type}. The breed is: {self.breed}')
 
 emptyArray = []
 pet1 = Pet("Dog", "Bulldog")
